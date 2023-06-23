@@ -3,8 +3,8 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import { readFileSync } from "fs";
 
-import services from "./mainDetails/services";
-import skills from "./skills/skills";
+import services from "./mainDetails/services.js";
+import skills from "./skills/skills.js";
 
 const app = express();
 
